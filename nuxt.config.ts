@@ -19,7 +19,10 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false
   },
-  css: ['@/assets/styles/main.scss'],
+  css: [
+    '@/assets/styles/main.scss',
+    'bootstrap-icons/font/bootstrap-icons.css'
+  ],
   vite: {
     css: {
       preprocessorOptions: {

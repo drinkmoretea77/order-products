@@ -1,3 +1,35 @@
 {
-  "welcome": "Добро пожаловать!"
+  "Inventory": "Inventory",
+  "Search": "Поиск",
+  "Incoming": "Приходы",
+  "Groups": "Группы",
+  "Products": "Продукты",
+  "Users": "Пользователи",
+  "Settings": "Настройки",
+  "Profile": "Профиль",
+  "productItem": {
+    "one": "Продукт",
+    "few": "Продукта",
+    "many": "Продуктов"
+  },
+  "Add product": "Добавить продукт",
+  "stockStatus": {
+    "inRepair": "В ремонте",
+    "available": "Свободен"
+  },
+  "dialog": {
+    "incomingDeleteTitle": "Вы уверены, что хотите удалить этот приход?",
+    "cancel": "Отменить",
+    "delete": "Удалить"
+  },
+  "Type": "Тип",
+  "Specification": "Спецификация",
+  "condition": {
+    "new": "новый",
+    "used": "Б/У"
+  },
+  "fromTo": {
+    "from": "с",
+    "to": "по"
+  }    
 }

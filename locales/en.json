@@ -1,3 +1,35 @@
 {
-  "welcome": "Welcome!"
+  "Inventory": "Inventory",
+  "Search": "Search",
+  "Incoming": "Incoming",
+  "Groups": "Groups",
+  "Products": "Products",
+  "Users": "Users",
+  "Settings": "Settings",
+  "Profile": "Profile",
+  "productItem": {
+    "one": "Product",
+    "few": "Products",
+    "many": "Products"
+  },
+  "Add product": "Add product",
+  "stockStatus": {
+    "inRepair": "In repair",
+    "available": "Available"
+  },
+  "dialog": {
+    "incomingDeleteTitle": "Are you sure you want to delete this income?",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "Type": "Type",
+  "Specification": "Specification",
+  "condition": {
+    "new": "new",
+    "used": "used"
+  },
+  "fromTo": {
+    "from": "from",
+    "to": "to"
+  }
 }

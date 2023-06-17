@@ -1,7 +1,6 @@
 <template>
   <div>
-    <p>Current locale: {{ $t('welcome') }}</p>
-    <BootstrapTest />
+    <FullLayout />
   </div>
 </template>
 

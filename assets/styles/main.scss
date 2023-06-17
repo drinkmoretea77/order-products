@@ -1,5 +1,50 @@
-
 // load bootstrap
-@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/scss/bootstrap';
 
+body {
+  min-width: 992px;
+  color: $text-dark;
+  background: $bg-primary;
+}
+
+a {
+  text-decoration: none;
+}
+
+.custom-input {
+  width: 400px;
+}
+
+.custom-table {
+  td {
+    min-height: 60px;
+    padding: 10px 20px;
+  }
+}
+
+.table-separate {
+  border-collapse: separate;
+  border-spacing:0 20px;
+}
+
+.fixed-col {
+  max-width: 350px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
+
+.bordered {
+  border-bottom: 1px solid;
+}
 

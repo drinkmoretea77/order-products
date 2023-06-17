@@ -1,23 +1,29 @@
-// set theme colors
-$primary: #ce2127;
-$dark: #212121;
-$theme1: #33a8d1;
+$accent: #8bc34a;
+$accent-dark: #689e30;
+$bg-primary: #F0F3F5;
+$bg-secondary: #CFD8DC;
+$text-light: #6C757D;
+$text: #546E7A;
+$text-dark: #343A40;
 
-@import "bootstrap/scss/_functions";
-@import "bootstrap/scss/_variables";
-@import "bootstrap/scss/_mixins";
 
-// add custom colors to the bootstrap theme
-$custom-theme-colors: (
-        "theme1": $theme1,
-        "white": $white
+$theme-colors: (
+  'primary': $accent,
+  'success': $accent-dark,
+  'light': $text-light,
+  'secondary': $text,
+  'warning': #CDDC39,
+  'danger': #E8364F,
+  'dark': $text-dark
 );
 
-// overwrite bootstrap sass variables (check _variables for all options)
-$enable-negative-margins: true;
-$navbar-light-color: $dark;
-$font-family-base: 'Verdana', sans-serif;
-$font-size-base: .85rem;
-$input-btn-padding-x: 1rem;
-$border-radius: 2px;
-$link-color: $theme1;
+$btn-close-color: $text;
+$btn-active-border-color: inherit;
+
+$sidebar-offset: 200px;
+
+$transition: all 0.3s ease;
+
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/_mixins';

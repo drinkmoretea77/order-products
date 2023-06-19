@@ -5,15 +5,15 @@
       class="shadow rounded d-flex flex-column aside align-items-center bg-white"
     >
       <div class="avatar position-relative mb-5">
-        <nuxt-img
+        <img
           class="avatar-image rounded-circle"
-          src="/avatar.webp"
+          src="~/assets/img/avatar.webp"
           :alt="$t('Profile')"
-          :width="100"
-          :height="100"
+          width="100"
+          height="100"
           loading="lazy"
-          fit="cover"
-        />
+          style="object-fit: cover;"
+        >
         <div
           class="rounded-circle shadow position-absolute bg-white p-2 avatar-edit d-flex justify-content-center align-items-center"
         >

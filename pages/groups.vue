@@ -109,13 +109,14 @@
                   <i class="bi bi-circle-fill text-warning status-icon" />
                 </td>
                 <td>
-                  <nuxt-img
-                    src="/monitor.png"
-                    :width="60"
-                    :height="40"
+                  <img
+                    class="monitor-image img-fluid"
+                    src="~/assets/img/monitor.png"
+                    alt="Monitor"
+                    width="60"
+                    height="40"
                     loading="lazy"
-                    fit="cover"
-                  />
+                  >
                 </td>
                 <td>
                   <div>
@@ -141,13 +142,14 @@
                   <i class="bi bi-circle-fill text-warning status-icon" />
                 </td>
                 <td>
-                  <nuxt-img
-                    src="/monitor.png"
-                    :width="60"
-                    :height="40"
+                  <img
+                    class="monitor-image img-fluid"
+                    src="~/assets/img/monitor.png"
+                    alt="Monitor"
+                    width="60"
+                    height="40"
                     loading="lazy"
-                    fit="cover"
-                  />
+                  >
                 </td>
                 <td>
                   <div>
@@ -173,13 +175,14 @@
                   <i class="bi bi-circle-fill text-warning status-icon" />
                 </td>
                 <td>
-                  <nuxt-img
-                    src="/monitor.png"
-                    :width="60"
-                    :height="40"
+                  <img
+                    class="monitor-image img-fluid"
+                    src="~/assets/img/monitor.png"
+                    alt="Monitor"
+                    width="60"
+                    height="40"
                     loading="lazy"
-                    fit="cover"
-                  />
+                  >
                 </td>
                 <td>
                   <div>
@@ -205,13 +208,14 @@
                   <i class="bi bi-circle-fill text-warning status-icon" />
                 </td>
                 <td>
-                  <nuxt-img
-                    src="/monitor.png"
-                    :width="60"
-                    :height="40"
+                  <img
+                    class="monitor-image img-fluid"
+                    src="~/assets/img/monitor.png"
+                    alt="Monitor"
+                    width="60"
+                    height="40"
                     loading="lazy"
-                    fit="cover"
-                  />
+                  >
                 </td>
                 <td>
                   <div>
@@ -269,13 +273,14 @@
                     <i class="bi bi-circle-fill text-warning status-icon" />
                   </td>
                   <td>
-                    <nuxt-img
-                      src="/monitor.png"
-                      :width="60"
-                      :height="40"
+                    <img
+                      class="monitor-image img-fluid"
+                      src="~/assets/img/monitor.png"
+                      alt="Monitor"
+                      width="60"
+                      height="40"
                       loading="lazy"
-                      fit="cover"
-                    />
+                    >
                   </td>
                   <td>
                     <div>

@@ -63,13 +63,14 @@
                 <i class="bi bi-circle-fill text-warning status-icon" />
               </td>
               <td class="bg-white border border-start-0 border-end-0">
-                <nuxt-img
-                  src="/monitor.png"
-                  :width="60"
-                  :height="40"
+                <img
+                  class="monitor-image img-fluid"
+                  src="~/assets/img/monitor.png"
+                  alt="Monitor"
+                  width="60"
+                  height="40"
                   loading="lazy"
-                  fit="cover"
-                />
+                >
               </td>
               <td class="bg-white border border-start-0 border-end-0">
                 <div>
@@ -141,13 +142,14 @@
                 <i class="bi bi-circle-fill text-dark status-icon" />
               </td>
               <td class="bg-white border border-start-0 border-end-0">
-                <nuxt-img
-                  src="/monitor.png"
-                  :width="60"
-                  :height="40"
+                <img
+                  class="monitor-image img-fluid"
+                  src="~/assets/img/monitor.png"
+                  alt="Monitor"
+                  width="60"
+                  height="40"
                   loading="lazy"
-                  fit="cover"
-                />
+                >
               </td>
               <td class="bg-white border border-start-0 border-end-0">
                 <div>
@@ -219,13 +221,14 @@
                 <i class="bi bi-circle-fill text-warning status-icon" />
               </td>
               <td class="bg-white border border-start-0 border-end-0">
-                <nuxt-img
-                  src="/monitor.png"
-                  :width="60"
-                  :height="40"
+                <img
+                  class="monitor-image img-fluid"
+                  src="~/assets/img/monitor.png"
+                  alt="Monitor"
+                  width="60"
+                  height="40"
                   loading="lazy"
-                  fit="cover"
-                />
+                >
               </td>
               <td class="bg-white border border-start-0 border-end-0">
                 <div>

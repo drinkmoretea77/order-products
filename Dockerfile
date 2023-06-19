@@ -1,12 +1,11 @@
-FROM node:alpine
+FROM node:18-alpine
 
 # Create destination directory
 RUN mkdir -p /usr/src/order-products
 WORKDIR /usr/src/order-products
 
-# Update and install dependencies
 RUN apk update && apk upgrade && \
-    apk add --no-cache git
+    apk add --no-cache git yarn
 
 # Copy the app, note .dockerignore
 COPY . /usr/src/order-products/

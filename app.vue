@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FullLayout />
+    <NuxtLayout />
   </div>
 </template>
 

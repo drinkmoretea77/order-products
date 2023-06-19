@@ -48,3 +48,60 @@ a {
   border-bottom: 1px solid;
 }
 
+.feature-add {
+  border-radius: 50%;
+  background: $accent;
+  width: 40px;
+  height: 40px;
+  border: 5px solid $accent-dark;
+
+  i {
+    font-size: 16px;
+    line-height: 1;
+    color: $white;
+  }
+}
+
+.task-icon {
+  border-radius: 50%;
+  border: 1px solid $gray-400;
+  width: 45px;
+  height: 45px;
+
+  i {
+    line-height: 1;
+    color: $gray-700;
+  }
+}
+
+.item-add-icon {
+  background: $accent;
+  width: 20px;
+  height: 20px;
+
+  i {
+    font-size: 16px;
+    line-height: 1;
+    color: $white;
+  }
+}
+.status-icon {
+  font-size: 12px;
+}
+.calendar-item {
+  min-width: 80px;
+}
+
+.btn-close-custom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: auto;
+  font-size: 12px;
+  opacity: 1!important;
+  transform: translate(20px, -20px);
+}
+.btn-close-custom--modal {
+  transform: translate(14px, -14px);
+}

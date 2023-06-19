@@ -1,7 +1,7 @@
 {
   "Inventory": "Inventory",
   "Search": "Search",
-  "Incoming": "Incoming",
+  "Incoming": "Orders",
   "Groups": "Groups",
   "Products": "Products",
   "Users": "Users",
@@ -18,7 +18,7 @@
     "available": "Available"
   },
   "dialog": {
-    "incomingDeleteTitle": "Are you sure you want to delete this income?",
+    "incomingDeleteTitle": "Are you sure you want to delete this order?",
     "cancel": "Cancel",
     "delete": "Delete"
   },
